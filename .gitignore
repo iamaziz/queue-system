@@ -23,9 +23,10 @@
 *.out
 *.synctex.gz
 
-#local docs
+#local folders
 docs/*
 src/*
+work-log/*
 
 #html
 *.html
