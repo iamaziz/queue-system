@@ -30,3 +30,10 @@ work-log/*
 
 #html
 *.html
+
+#data
+*.csv
+
+#notebooks
+*.ipynb
+
