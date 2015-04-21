@@ -5,7 +5,6 @@
 
 - Paper:
 
-	- (uses poisson distribution): Simple Queuing Theory Tools You Can Use in Healthcare, [pdf](http://www.iienet.org/uploadedFiles/SHS_Community/Resources/Simple%20Queuing%20Theory%20Tools%20You%20Can%20Use%20In%20Healthcare.pdf)
 	- Using Compartmental Models to Predict Hospital Bed Occupancy, [pdf](http://www.researchgate.net/publication/228850639_Using_Compartmental_Models_to_Predict_Hospital_Bed_Occupancy)
 	- Physicians' Ability to Predict Hospital Length of Stay for Patients Admitted to the Hospital from the Emergency Department, [pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3272796/)
 - [A Design for Evidence-based Software Architecture Research](http://users.ece.utexas.edu/~perry/work/papers/R2A-05-Evidence.pdf)

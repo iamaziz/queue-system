@@ -28,9 +28,10 @@ Having objectives like:
 
 **Techniques and Tools**
 
-- Time series analysis.
-- Prediction and probability (per Dr. Gaynor).
 
+- Queuing Theory.
+- Time series
+- Prediction and probability (Poisson Distribution per Dr. Gaynor).
 
 **Use cases:**
 
