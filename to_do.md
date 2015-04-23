@@ -1,6 +1,7 @@
 ## To Do
 
-- Apply Poisson on the simulated dataset.
+- Apply Poisson distribution for the arrival process.
+- The total number of patients in the hospital at a given day (and how many IN / OUT on that day). 
 - Provide predictive analysis based on the patients data.
 
 
@@ -8,20 +9,19 @@
 
 - Queuing theory (systems) in healthcare.
 - Poisson distribution (probability, process).
-
+- queuing system Poisson, see [1](https://www.google.com/#q=queuing+system+poisson+inurl:.edu), [2](https://www.google.com/#q=queuing+system+poisson+)
 <hr>
 
 ## To Answer:
 
 - What kind of prediction, estimation, or operations do we need to perform on the datasets ?
-
+- Can we have real datasets?
 <hr>
 
 ## Related:
 
 
 - (uses poisson distribution): Simple Queuing Theory Tools You Can Use in Healthcare, [pdf](http://www.iienet.org/uploadedFiles/SHS_Community/Resources/Simple%20Queuing%20Theory%20Tools%20You%20Can%20Use%20In%20Healthcare.pdf)
-
 <hr>
 
 ## Deliverable:
