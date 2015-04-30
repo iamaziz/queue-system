@@ -1,9 +1,10 @@
 ## To Do
 
 - Apply Poisson distribution for the arrival process.
-- The total number of patients in the hospital at a given day (and how many IN / OUT on that day). 
 - Provide predictive analysis based on the patients data.
-
+- Get to work on a real dataset.
+- Search for public Dataset.
+- √ The total number of patients in the hospital at a given day (and how many IN / OUT on that day). [see](http://shrib.com/PRgKminG?hide=35)
 
 ## Keywords:
 
@@ -27,9 +28,10 @@
 ## Deliverable:
 
 1. [resources and background](http://aziz.nyc/projects/ebd)
-1. [generating simulated dataset v.0](http://aziz.nyc/projects/ebd/patients-data.html)
-2. [generating and visualizing dataset v.1](http://aziz.nyc/projects/ebd/generate-and-visualize-patients-dataset.html)
+2. [generating simulated dataset v0.1](http://aziz.nyc/projects/ebd/patients-data.html)
+3. [generating and visualizing dataset v0.2](http://aziz.nyc/projects/ebd/generate-and-visualize-patients-dataset.html)
+4. [patients flow in/out after processing the dataset v0.3](http://aziz.nyc/projects/ebd/imaginary-patients-dataset.html)
 
 <hr>
 
-<sub>As of: Tue Apr 21 15:59:38 EDT 2015 </sub>
+<sub>As of: Thu Apr 30 12:54:34 EDT 2015 </sub>
