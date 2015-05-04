@@ -8,8 +8,8 @@
 
 ## Keywords:
 
-- Queuing theory (systems) in healthcare.
-- Poisson distribution (probability, process).
+- Queuing theory (systems) in healthcare. (see: Ch.7 Probability.and.Statistics.for.Computer.Scientists.2nd.Edition.pdf)
+- Poisson distribution (probability, process). (see: Ch.4 Stats Intro using python.pdf)
 - queuing system Poisson, see [1](https://www.google.com/#q=queuing+system+poisson+inurl:.edu), [2](https://www.google.com/#q=queuing+system+poisson+)
 <hr>
 
