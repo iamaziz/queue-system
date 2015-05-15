@@ -8,8 +8,6 @@ import sys
 # features confiuration
 
 count = 1000
-
-
 def patient_name():
     global count
     pid = ''.join(['NYC',str(count)])
@@ -17,8 +15,8 @@ def patient_name():
     return pid
 
 try:
-    start_month = int(sys.argv[2])
-    end_month = int(sys.argv[3])
+    start_month = int(sys.argv[3])
+    end_month = int(sys.argv[4])
 except:
     start_month = 1
     end_month = 2
@@ -40,9 +38,14 @@ def rand_pois(mu=2):
     return r
 
 
+try:
+    avg_stay = int(sys.argv[1])
+except:
+    avg_stay = 2
+    
 def patient_log():
 
-    stay = rand_pois(mu=2)        # an arbitrary mean of how long a patient stays at hospital
+    stay = rand_pois(mu=avg_stay) # an arbitrary mean of how long a patient stays at hospital
     ic = rand_pois(mu=0.1)        # approximately! assuming ~10% of patients go into IC rooms
     if ic > 0: ic_room = 'yes'
     else: ic_room = 'no'
@@ -59,7 +62,7 @@ def patient_log():
 import csv
 
 try:
-    NUM_PATIENTS = int(sys.argv[1])
+    NUM_PATIENTS = int(sys.argv[2])
 except:
     NUM_PATIENTS = 3000
 

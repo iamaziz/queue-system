@@ -13,9 +13,8 @@ def avg_stay():
     return avg
 
 def explore_patients_dataset():
-    print("{} patients were admitted between March/April 2015".format(len(data)))
-    print("{}% admitted into IC Rooms ({})".format(icroom_percentage(), len(data[data.ICRoom == 'yes'])))
-    print("{} day(s) is the average stay of a patient".format(avg_stay()))
-    return data
+    print("{} patients were admitted.".format(len(data)))
+    print("{:.2f}% admitted into IC Rooms (total {})".format(icroom_percentage(), len(data[data.ICRoom == 'yes'])))
+    print("{:.2f} day(s) is the average stay of a patient.".format(avg_stay()))
 
 explore_patients_dataset()
