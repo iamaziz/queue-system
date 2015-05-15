@@ -24,9 +24,9 @@
 *.synctex.gz
 
 #local folders
-docs/*
-src/*
+support/archive
 work-log/*
+
 
 #html
 *.html
@@ -35,5 +35,5 @@ work-log/*
 *.csv
 
 #notebooks
-*.ipynb
+# *.ipynb
 
