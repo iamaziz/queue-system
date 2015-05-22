@@ -11,6 +11,7 @@
 - Queuing theory (systems) in healthcare. (see: Ch.7 Probability.and.Statistics.for.Computer.Scientists.2nd.Edition.pdf)
 - Poisson distribution (probability, process). (see: Ch.4 Stats Intro using python.pdf)
 - queuing system Poisson, see [1](https://www.google.com/#q=queuing+system+poisson+inurl:.edu), [2](https://www.google.com/#q=queuing+system+poisson+)
+- Time Series Analysis see: [1](http://nbviewer.ipython.org/github/changhiskhan/talks/blob/master/pydata2012/pandas_timeseries.ipynb), [2](http://conference.scipy.org/scipy2011/slides/mckinney_time_series.pdf), 8.1 in Data Science and Big Data Analytics.pdf 
 <hr>
 
 ## To Answer:
