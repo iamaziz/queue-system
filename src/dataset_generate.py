@@ -57,25 +57,41 @@ def patient_log():
     return [patient_id, admit_day, stay, leave_day, ic_room]
 
 
-# generate feature samples and write them into a csv file
-
-import csv
+##__ generate feature samples and write them into a csv file
 
 try:
     NUM_PATIENTS = int(sys.argv[2])
 except:
     NUM_PATIENTS = 3000
 
+    
+#__ using csv
+# import csv
 
-def generate_patients_dataset():
+# def generate_patients_dataset():
 
-    output_file = 'patients-data.csv'
-    with open(output_file, 'wb') as csvfile:
-        spamwriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        spamwriter.writerow(['PatientID', 'AdmitDay', 'DaysStay', 'LeaveDay', 'ICRoom'])
-        for i in range(NUM_PATIENTS):
-            spamwriter.writerow(patient_log())
-    print('generated patients dataset and wrote output into: \n\t{}'.format('patients-data.csv'))
+#     output_file = 'per_patient_data.csv'
+#     with open(output_file, 'wb') as csvfile:
+#         spamwriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+#         spamwriter.writerow(['PatientID', 'AdmitDay', 'DaysStay', 'LeaveDay', 'ICRoom'])
+#         for i in range(NUM_PATIENTS):
+#             spamwriter.writerow(patient_log())
+#     print('generated patients dataset and wrote output into: \n\t{}'.format('patients-data.csv'))
+# generate_patients_dataset()
 
+#__ using pandas and numpy
+import numpy as np
+import pandas as pd
 
-generate_patients_dataset()
+records = lambda x: [patient_log() for _ in range(x)]
+a = np.array(records(NUM_PATIENTS))
+
+test = pd.DataFrame()
+test['PatientID'] = a[:,0]
+test['AdmitDay'] = a[:,1]
+test['DaysStay'] = a[:,2]
+test['LeaveDay'] = a[:,3]
+test['ICRoom'] = a[:,4]
+test.to_csv('per_patient_data-another-way.csv', index=False)
+    
+    
