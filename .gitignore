@@ -27,7 +27,7 @@
 #local folders
 support/archive
 work-log/*
-
+.ipynb_checkpoints/
 
 #html
 *.html
