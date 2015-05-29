@@ -2,7 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-in_file = 'patients-data.csv'
+in_file = 'per-patient-data.csv'
 
 data = pd.DataFrame.from_csv(in_file, index_col=False)
 
@@ -41,7 +41,7 @@ def daily_ticks():
 # write the processed data into a csv file
 
 import csv
-out_file = 'daily-ticks.csv' 
+out_file = 'per-day-data.csv' 
 with open(out_file, 'w') as csvfile:
     a = csv.writer(csvfile, delimiter=',')
     a.writerow(['Date', 'InPatients', 'OutPatients', 'InICU', 'OutICU', 'ICUroomTotal', 'OverallTotal'])
@@ -62,4 +62,4 @@ with open(out_file, 'w') as csvfile:
         
         a.writerow(row)
 
-print('processed the per-individual patients dataset:\n\t{}\nand wrote aggregated new dataset into:\n\t{}'.format(in_file, out_file))
+print('processed the per-patient dataset:\n\t{}\nand generated the aggregated new dataset into:\n\t{}'.format(in_file, out_file))

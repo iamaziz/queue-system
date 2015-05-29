@@ -70,7 +70,7 @@ except:
 
 # def generate_patients_dataset():
 
-#     output_file = 'per_patient_data.csv'
+#     output_file = 'per-patient-data.csv'
 #     with open(output_file, 'wb') as csvfile:
 #         spamwriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
 #         spamwriter.writerow(['PatientID', 'AdmitDay', 'DaysStay', 'LeaveDay', 'ICRoom'])
@@ -92,6 +92,8 @@ test['AdmitDay'] = a[:,1]
 test['DaysStay'] = a[:,2]
 test['LeaveDay'] = a[:,3]
 test['ICRoom'] = a[:,4]
-test.to_csv('per_patient_data-another-way.csv', index=False)
+outfile = 'per-patient-data.csv'
+test.to_csv(outfile, index=False)
+print('generated patients dataset and wrote output into: \n\t{}'.format(outfile))
     
     

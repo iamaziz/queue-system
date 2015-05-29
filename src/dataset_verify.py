@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-data = pd.read_csv('patients-data.csv')
+data = pd.read_csv('per-patient-data.csv')
 
 def icroom_percentage():
     n = len(data[data.ICRoom == 'yes'])
