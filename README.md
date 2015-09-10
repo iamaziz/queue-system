@@ -1,5 +1,5 @@
 ## To Do
-- As per a phone call on 6/1/2015 with Dr. Gaynor:
+- As per Dr. Gaynor (6/1/2015):
 	- Hospital has two types of rooms: ICU and Regular rooms.
 	- Often, it costs more money to build MANY ICU rooms than actually needed.
 	- Therefore, we need to build rooms that are adjsutable (ICU/regular at the same time).
