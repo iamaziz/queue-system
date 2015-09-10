@@ -22,12 +22,6 @@
 - ~~Time Series Analysis see: [1](http://nbviewer.ipython.org/github/changhiskhan/talks/blob/master/pydata2012/pandas_timeseries.ipynb), [2](http://conference.scipy.org/scipy2011/slides/mckinney_time_series.pdf), 8.1 in Data Science and Big Data Analytics.pdf~~
 <hr>
 
-## To Answer:
-
-- ~~What is project's objective(s) ?~~
-- What kind of prediction, estimation, or operations do we need to perform on the datasets ?
-- ~~Can we have real datasets ?~~
-<hr>
 
 ## Related:
 
