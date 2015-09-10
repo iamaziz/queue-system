@@ -1,16 +1,7 @@
-## To Do
-- As per Dr. Gaynor (6/1/2015):
-	- Hospital has two types of rooms: ICU and Regular rooms.
-	- Often, it costs more money to build MANY ICU rooms than actually needed.
-	- Therefore, we need to build rooms that are adjsutable (ICU/regular at the same time).
-	- The question is: How many rooms should be designed as adjustable?
-	- In order to decide on that (for now), Dr. Gaynor requested:
-		- A graphical design of the hospital showing both types of rooms. 
-		- With, a virtual simulation (animation) to show patients flowing in/out of rooms.
-		- **P.S.**: for a similar **CASE** and **SOFTWARE** [see this](https://www.simulationsoftware.com/content.php/195-Hospital-Simulation).
 
-- ~~Get to work on a real dataset.~~
-- ~~Search for public Dataset. [see](support/public-datasets.html)~~
+
+
+## ToDo:
 - ~~Set a response time/serve time for every patient.~~
 
 
