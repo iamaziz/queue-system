@@ -22,12 +22,12 @@
 
 ## Deliverable:
 
-1. [resources and background](http://webpage.pace.edu/aa10212w/projects/ebd/resources.html)
-2. [generating simulated dataset v0.1](http://webpage.pace.edu/aa10212w/projects/ebd/patients-data.html)
-3. [generating and visualizing dataset v0.2](http://webpage.pace.edu/aa10212w/projects/ebd/generate-and-visualize-patients-dataset.html)
-4. [patients flow in/out after processing the dataset v0.3](http://webpage.pace.edu/aa10212w/projects/ebd/imaginary-patients-dataset.html)
-5. [links to health related datasets](http://webpage.pace.edu/aa10212w/projects/ebd/support/public-datasets.html)
-6. [patients flow in/out after processing the dataset v0.4](http://webpage.pace.edu/aa10212w/projects/ebd/hospital-simulation.html)
+1. [resources and background](http://aziz.nyc/projects/ebd/resources.html)
+2. [generating simulated dataset v0.1](http://aziz.nyc/projects/ebd/patients-data.html)
+3. [generating and visualizing dataset v0.2](http://aziz.nyc/projects/ebd/generate-and-visualize-patients-dataset.html)
+4. [patients flow in/out after processing the dataset v0.3](http://aziz.nyc/projects/ebd/imaginary-patients-dataset.html)
+5. [links to health related datasets](http://aziz.nyc/projects/ebd/support/public-datasets.html)
+6. [patients flow in/out after processing the dataset v0.4](http://aziz.nyc/aa10212w/projects/ebd/hospital-simulation.html)
 
 <hr>
 
